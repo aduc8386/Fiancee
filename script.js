@@ -35,6 +35,10 @@ no.onmouseover = () => {
 	} else {
 		chat.innerHTML = "Khum sao chắc em trượt tay thui! Nhỉ?";
 	}
+
+	var audio1 = new Audio("img/beep.mp3");
+	audio1.play();
+
 	let randomTop = (Math.random() * 400) - 200;
 	let randomLeft = (Math.random() * 400) - 200;
 
